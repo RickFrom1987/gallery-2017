@@ -371,8 +371,7 @@ th {
 .gallery-container {
   width: 90%;
   margin-left: auto;
-  margin-right: auto;
-  border: 1px solid pink; }
+  margin-right: auto; }
   .gallery-container .row {
     position: relative;
     width: 100%; }

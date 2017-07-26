@@ -1,5 +1,6 @@
 (function() {
   console.log("index.js")
+  // Max 4
   const ITEMS_PER_ROW = 4
   const GALLERY_ITEM = {
     url: 'http://www.american.edu/uploads/profiles/large/chris_palmer_profile_11.jpg',
@@ -15,7 +16,7 @@
     // render an individual item
     renderItem(item) {
       // 12 width grid system
-      const num = 12 / ITEMS_PER_ROW
+      const num = Math.ceil(12 / ITEMS_PER_ROW)
       return `
         <div class="col-${num}">
           ${item.text}
