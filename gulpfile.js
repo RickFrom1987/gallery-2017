@@ -2,6 +2,7 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync'),
+    concat = require('gulp-concat'),
     paths = {
       'sass': './src/sass/',
       'css': './build/css/',
@@ -9,7 +10,6 @@ var gulp = require('gulp'),
       'js': './build/js/',
       'site': './build/'
     };
-
 
 // Sass task: Compile SCSS files to CSS
 gulp.task('sass', function () {
@@ -29,13 +29,14 @@ gulp.task('browser-sync', ['sass', 'scripts'], function () {
 });
 
 
-// Scripts task: Compile TypeScript files to js
+// Scripts task
 gulp.task('scripts', function () {
-  return gulp.src(paths.scripts + '*.js')
+  // return gulp.src(paths.scripts + '*.js')
+  return gulp.src([paths.scripts + 'modal.js', paths.scripts + 'gallery.js', paths.scripts + 'index.js'])
+    .pipe(concat('all.js'))
     .pipe(gulp.dest(paths.js))
     .pipe(browserSync.reload({ stream: true })); // Reload browser
 });
-
 
 // Reload browser
 gulp.task('reload', function () {
