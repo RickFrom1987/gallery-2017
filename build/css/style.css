@@ -447,6 +447,8 @@ th {
       width: 96%; } }
 
 #gallery-modal {
+  display: block;
+  z-index: 999999;
   position: fixed;
   top: 0;
   left: 0;
