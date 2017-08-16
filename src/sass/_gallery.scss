@@ -1,0 +1,44 @@
+.gallery-container {
+  .overlay {
+    font-family: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    h2 {
+      font-size: 16px;
+      text-transform: uppercase;
+      color: white;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .gallery-item {
+    position: relative;
+  }
+
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay-text {
+    color: white;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+}

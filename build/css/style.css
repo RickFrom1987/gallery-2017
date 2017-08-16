@@ -446,6 +446,42 @@ th {
     .gallery-container .col-12 {
       width: 96%; } }
 
+.gallery-container .overlay {
+  font-family: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer; }
+  .gallery-container .overlay h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white; }
+  .gallery-container .overlay p {
+    font-size: 14px; }
+
+.gallery-container .gallery-item {
+  position: relative; }
+
+.gallery-container .gallery-item:hover .overlay {
+  opacity: 1; }
+
+.gallery-container .overlay-text {
+  color: white;
+  position: absolute;
+  width: 90%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
 #gallery-modal {
   display: block;
   z-index: 999999;
@@ -458,26 +494,38 @@ th {
   min-height: 100vh;
   background: rgba(0, 0, 0, 0.75);
   color: white; }
-  #gallery-modal img {
-    width: 80%;
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 12px; }
   #gallery-modal #gallery-modal-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    width: 80%;
-    height: 80%;
-    max-width: 768px;
-    text-align: center; }
+    width: 85%;
+    height: 85%;
+    max-width: 768px; }
+    #gallery-modal #gallery-modal-content img {
+      width: 80%;
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 12px; }
+    #gallery-modal #gallery-modal-content #gallery-modal-body {
+      display: flex;
+      flex-direction: column;
+      padding: 24px; }
+      #gallery-modal #gallery-modal-content #gallery-modal-body h2 {
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        color: white; }
+  @media only screen and (max-width: 768px) {
+    #gallery-modal #gallery-modal-content {
+      flex-direction: column;
+      text-align: center; } }
   #gallery-modal #gallery-modal-close {
     cursor: pointer;
     display: flex;
@@ -492,5 +540,8 @@ th {
     right: 0px; }
 
 .gallery-container .img {
+  display: block;
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin: 0;
+  padding: 0; }

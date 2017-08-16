@@ -10,24 +10,40 @@
   min-height: 100vh;
   background: rgba(0,0,0,0.75);
   color: white;
-  img {
-    width: 80%;
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 12px;
-  }
   #gallery-modal-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 85%;
     max-width: 768px;
-    text-align: center;
+    img {
+      width: 80%;
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 12px;
+    }
+    #gallery-modal-body {
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      h2 {
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        color: white;
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    #gallery-modal-content {
+      flex-direction: column;
+      text-align: center;
+    }
   }
   #gallery-modal-close {
     cursor: pointer;

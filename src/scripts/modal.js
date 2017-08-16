@@ -33,10 +33,12 @@ class Modal {
     `
   }
 
+  renderTitle(title){
+    return title
+  }
+
   renderText(text){
-    return `
-      <div>${text}</div>
-    `
+    return text
   }
 
   show(html) {
@@ -51,13 +53,16 @@ class Modal {
 
   // main render loop
   render(data) {
-    if (!data || !data.url || !data.text) {
+    if (!data || !data.url) {
       throw new Error('No Modal Data')
     }
     const modalContent = document.getElementById('gallery-modal-content')
     modalContent.innerHTML = `
       ${this.renderImage(data.url)}
-      ${this.renderText(data.text)}
+      <div id="gallery-modal-body">
+        <h2>${this.renderTitle(data.title)}</h2>
+        <p>${this.renderText(data.text)}</p>
+      </div>
     `
     this.show()
   }

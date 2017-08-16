@@ -1,5 +1,9 @@
-(function() {
-  const GALLERY_ITEMS = [{
+const GALLERY_ITEMS = [{
+    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/ben-300px.jpg',
+    title: 'Ben Robinson',
+    subtitle: 'Executive Director',
+    text: 'Ben is the point person on all financial and administrative matters. He holds an MBA from Ross School of Business, University of Michigan. His prior positions include CFO at the University of Washington’s School of Public Health and Finance Director of Fred Hutchinson Cancer Research Center.'
+  }, {
     url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kathy-300px.jpg',
     title: 'KATHY BURGOYNE, PHD',
     subtitle: 'Senior Director of Applied Research',
@@ -74,12 +78,5 @@
     title: 'Ryan',
     subtitle: 'Assistant Director of Operations',
     text: ''
-  }]
-  const modal = new Modal()
-  const gallery = new Gallery('gallery-2017', {
-    items: GALLERY_ITEMS,
-    onClickFn: (item) => {
-      modal.render(item)
-    }
-  })
-})()
+  }
+]

@@ -24,7 +24,8 @@ class Gallery {
         const currTarget = e.currentTarget
         return this.onClickFn({
           url: currTarget.getAttribute('data-url'),
-          text: currTarget.getAttribute('data-text')
+          text: currTarget.getAttribute('data-text'),
+          title: currTarget.getAttribute('data-title')
         })
       }
     });
@@ -34,10 +35,24 @@ class Gallery {
   renderItem(item) {
     // 12 width grid system
     const num = Math.ceil(12 / this.ITEMS_PER_ROW)
+
+    let text = (item.text) ? item.text : ''
+    let title = (item.title) ? item.title : ''
+    let subtitle = (item.subtitle) ? item.subtitle : ''
     return `
-      <div class="col-${num} gallery-item" data-url="${item.url}" data-text="${item.text}">
+      <div
+        class="col-${num} gallery-item"
+        data-url="${item.url}"
+        data-title="${title}"
+        data-subtitle="${subtitle}"
+        data-text="${text}">
         <img class="img" src="${item.url}"/>
-        <p>${item.text}</p>
+        <div class="overlay">
+          <div class="overlay-text">
+            <h2>${title}</h2>
+            <p>${subtitle}</p>
+          </div>
+        </div>
       </div>
     `
   }
