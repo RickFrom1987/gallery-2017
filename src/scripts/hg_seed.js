@@ -1,4 +1,4 @@
-const GALLERY_ITEMS = [{
+  const GALLERY_ITEMS = [{
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/ben-300px.jpg',
       title: 'Ben Robinson',
       subtitle: 'Executive Director',
@@ -24,15 +24,25 @@ const GALLERY_ITEMS = [{
       subtitle: 'Community Connector',
       text: 'Andrea is the Community Connector at Healthy Gen and is active in mobilizing communities to create grassroots based operating systems with the goal of improved local health. Her focus is on creating cross sector alliances that support the development and implementation of programs for Community Health Workers and Peer Support.'
     }, {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/brice-300px.jpg',
+      title: 'Brice Reinhardt',
+      subtitle: 'Human Resources and Executive Support',
+      text: 'Brice manages human resources and provides project management support to the executive team at Health Gen.  Her superpowers include sorting out complex systems and tasks while maintaining and building strong relationship with internal and external stakeholders.'
+    }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/dustyn-300px.jpg',
       title: 'DUSTYN ADDINGTON',
       subtitle: 'Knowledge & Learning Specialist',
       text: 'Dustyn Addington is the Knowledge & Learning Specialist at Healthy Gen, and works to develop and support internal systems and processes that enable cross-programmatic learning, reflection & strategy development across Healthy Gen, as well as inform the product development of Healthy Gen Media.'
     }, {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/phoebe-300px.jpg',
+      title: 'Phoebe M. Olivera, MA',
+      subtitle: 'Director, Practice Transformation',
+      text: 'Phoebe\’s superpowers include group facilitation, problem solving and organizational system design. She holds a Master\'s Degree in Organizational Psychology from Antioch University Seattle and Graduate Certificates in Whole Systems Design, and Change Management.'
+    }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/gretchen-300px.jpg',
       title: 'GRETCHEN HANSEN',
       subtitle: 'Health Advocate Coordinator',
-      text: 'Gretchen has lived in Pierce County for over 20 years. Her passion is working with rich, diverse cultures and learning from each of them how to create more effective projects and community groups. She has experience in homelessness, domestic violence, student and employment services. Her focus has been on how to provide appropriate services to people facing extraordinary barriers including refugees, immigrants, chronically homeless and those in-out of incarceration. She uses this experience as a foundation for her work with neighborhood based community health workers. After working in non-profits for 18 years, she has a wide range of skills that include grant writing, contract management, project development, staff development and work with community coalitions. She is a graduate of University of Washington Tacoma.'
+      text: 'Gretchen helps communities develop support for people facing extraordinary barriers including refugees, immigrants, chronically homeless and those in and out of incarceration. She works directly with neighborhood based community health workers in the Salishan neighborhood and around Pierce County. Her skills include grant writing, contract management, project development, staff development and work with community coalitions. She is a graduate of University of Washington Tacoma.'
     }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kim-300px.jpg',
       title: 'KIMBERLY LATHAM',
@@ -54,11 +64,6 @@ const GALLERY_ITEMS = [{
       subtitle: 'Senior Research and Development Data Analyst',
       text: 'Suzanne is the Senior Research and Development Data Analyst at the Adverse Childhood Experiences (ACEs) Learning Institute.  Suzanne has more than ten years of experience working on and managing research projects that examine the causes and consequences of economic, social and health inequalities in the United States.  She completed her Ph.D. at the University of Washington in 2015.'
     }, {
-      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/sarah-300px.jpg',
-      title: 'TANIA HEWETT',
-      subtitle: 'Assistant Director of Operations',
-      text: 'Tania splits her time among different roles at Foundation for Healthy Generations. She is responsible for grant and contract management, provides support to the Finance/Administration team, and works with the ED to support human resource systems for the agency. Prior to joining the Foundation for Healthy Generations, she worked with international exchange programs and cross-cultural learning in both the non-profit and private sectors.'
-    }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/whitney-300px.jpg',
       title: 'WHITNEY JOHNSON',
       subtitle: 'Assistant Director of Operations',
@@ -66,7 +71,7 @@ const GALLERY_ITEMS = [{
     }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/ryan-300px.jpg',
       title: 'Ryan',
-      subtitle: 'Assistant Director of Operations',
+      subtitle: 'Director, Marketing',
       text: 'Ryan increases visibility and impact of our products and services through digital and experientail marketing projects including our online publication Co:LAB.'
     }
   ]
