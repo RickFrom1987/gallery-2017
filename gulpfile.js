@@ -9,7 +9,9 @@ var gulp = require('gulp'),
       'scripts': './src/scripts/',
       'js': './build/js/',
       'site': './build/'
-    };
+    },
+    fs = require('fs'),
+    s3 = require('gulp-s3-publish');
 
 // Sass task: Compile SCSS files to CSS
 gulp.task('sass', function () {
@@ -50,6 +52,14 @@ gulp.task('watch', function () {
   gulp.watch(paths.sass + '**/*.scss', ['sass']); // Watch sass files
   gulp.watch(paths.scripts + '**/*.js', ['scripts']); // Watch .js files
   gulp.watch(paths.site + '**/*.html', ['reload']); // Watch html files
+});
+
+
+// Deploy to s3
+gulp.task('deploy', function () {
+  var aws = JSON.parse(fs.readFileSync('./aws.json'));
+  return gulp.src('./build/**/*')
+    .pipe(s3(aws));
 });
 
 

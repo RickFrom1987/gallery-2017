@@ -44,11 +44,13 @@ class Modal {
   show(html) {
     this.modal.style.display = 'block'
     document.body.style.overflow = 'hidden'
+    document.documentElement.style.overflow = 'hidden'
   }
 
   hide() {
     this.modal.style.display = 'none'
     document.body.style.overflow = 'auto'
+    document.documentElement.style.overflow = 'auto'
   }
 
   // main render loop
@@ -67,6 +69,7 @@ class Modal {
     this.show()
   }
 }
+
 class Gallery {
   constructor(id, options) {
     this.container = (document.getElementById(id)) ? document.getElementById(id) : null
@@ -148,81 +151,82 @@ class Gallery {
 }
 (function() {
   const GALLERY_ITEMS = [{
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kathy-300px.jpg',
-    title: 'KATHY BURGOYNE, PHD',
-    subtitle: 'Senior Director of Applied Research',
-    text: 'Kathy has worked in the prevention field for over 30 years as both a practitioner and researcher. At the center of her career has been an abiding commitment to vulnerable children, youth, and their families. Having worked in multiple systems including education, juvenile corrections, mental health, housing, and health promotion, she understands that each system has a necessary but not sufficient part in addressing the problems vulnerable people face. As a result, she focuses on establishing and maintaining strategic partnerships with schools, housing, social services, parents, philanthropists, government, and researchers to promote the health, education, and self-sufficiency of families living in very low-income, multi-ethnic communities.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/julie-300px.jpg',
-    title: 'Julie Peterson',
-    subtitle: 'Senior Director of Policy',
-    text: 'Julie’s public policy advocacy and legislative work is recognized by Philanthropy Northwest, Washington State Department of Social and Health Services’ Division of Alcohol and Substance Abuse, Community Anti-Drug Coalitions of America (CADCA) and the National Network for Safe and Drug-Free Schools and Communities. Currently, Julie serves as the past president of the Washington Association for Substance Abuse and Violence Prevention. Prior to her arrival at Foundation for Healthy Generations, she was the deputy director of the Washington State Traffic Safety Commission. She served as the agencys legislative liaison and a member of the interagency work group on drugs.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/bennie-300px.jpg',
-    title: 'Bennie Soto',
-    subtitle: 'Managing Director of Healthy Gen Media',
-    text: 'Bennie is orchestrating the launch and establishment of Healthy Gen Media, a division of the foundation focused on content which informs, educates, inspires and unites people to take effective actions toward health equity. His background in both big brand and start-up product marketing has included more than 120 product launches leading and executing go-to-market strategy to deployment. The majority of Bennie’s projects over the last 10 years have been associated with content development, adult learning, and customer/constituent acquisition & engagement for such brands as Apple, Best Buy, Bose, Microsoft, Premera, Target, Welltok, and several smaller organizations.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/andrea-300px.jpg',
-    title: 'Andrea Lopez-Diaz',
-    subtitle: 'Community Connector',
-    text: 'Andrea is the Community Connector at Healthy Gen and is active in mobilizing communities to create grassroots based operating systems with the goal of improved local health. Her focus is on creating cross sector alliances that support the development and implementation of programs for Community Health Workers and Peer Support.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/dustyn-300px.jpg',
-    title: 'DUSTYN ADDINGTON',
-    subtitle: 'Knowledge & Learning Specialist',
-    text: 'Dustyn Addington is the Knowledge & Learning Specialist at Healthy Gen, and works to develop and support internal systems and processes that enable cross-programmatic learning, reflection & strategy development across Healthy Gen, as well as inform the product development of Healthy Gen Media.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/gretchen-300px.jpg',
-    title: 'GRETCHEN HANSEN',
-    subtitle: 'Health Advocate Coordinator',
-    text: 'Gretchen has lived in Pierce County for over 20 years. Her passion is working with rich, diverse cultures and learning from each of them how to create more effective projects and community groups. She has experience in homelessness, domestic violence, student and employment services. Her focus has been on how to provide appropriate services to people facing extraordinary barriers including refugees, immigrants, chronically homeless and those in-out of incarceration. She uses this experience as a foundation for her work with neighborhood based community health workers. After working in non-profits for 18 years, she has a wide range of skills that include grant writing, contract management, project development, staff development and work with community coalitions. She is a graduate of University of Washington Tacoma.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kim-300px.jpg',
-    title: 'KIMBERLY LATHAM',
-    subtitle: 'Community Based Health',
-    text: 'Kimberly serves as Project Associate where she focuses on creating information channels to bridge knowledge across teams and strengthen collaboration with partners and community members. She brings experience in supporting the strategic alignment and growth of local and national initiatives through contract management, data analysis, and project coordination.  Prior to joining Foundation for Healthy Generations, she provided support for an Executive office at a large operating foundation.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/norma-300px.jpg',
-    title: 'NORMA JEAN STRAW',
-    subtitle: 'Communications Specialist',
-    text: 'Norma enjoys the challenges of leading and co-creating large scale, complex projects that marry storytelling, learning and social innovation. Prior to joining Helthy Gen,  she held key roles in public relations, community engagement, communications strategy, program innovation, and as a producer, writer and director for television, film and digital productions.  She has produced over 100 episodes of educational television, receiving two Emmy nominations for Outstanding Childrens’ TV Series for Hip Hop Harry (Discovery Kids) and BizKids (PBS) and is an active voting member of the National Academy of Television Arts and Sciences and a trustee of Washington Film Works.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/sarah-300px.jpg',
-    title: 'SARAH SALOMON',
-    subtitle: 'Assistant Director of Applied Research',
-    text: 'Sarah leads Learning Collaboratives to support agencies working collaboratively to implement new programs. She routinely facilitates program and quality improvement through data-driven discussions with diverse staff and stakeholders, and has developed tools and toolkits to support capacity building and sustainability.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/suzanne-300px.jpg',
-    title: 'SUZANNE EICHENLAUB',
-    subtitle: 'Senior Research and Development Data Analyst',
-    text: 'Suzanne is the Senior Research and Development Data Analyst at the Adverse Childhood Experiences (ACEs) Learning Institute.  Suzanne has more than ten years of experience working on and managing research projects that examine the causes and consequences of economic, social and health inequalities in the United States.  She completed her Ph.D. at the University of Washington in 2015.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/sarah-300px.jpg',
-    title: 'TANIA HEWETT',
-    subtitle: 'Assistant Director of Operations',
-    text: 'Tania splits her time among different roles at Foundation for Healthy Generations. She is responsible for grant and contract management, provides support to the Finance/Administration team, and works with the ED to support human resource systems for the agency. Prior to joining the Foundation for Healthy Generations, she worked with international exchange programs and cross-cultural learning in both the non-profit and private sectors.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/whitney-300px.jpg',
-    title: 'WHITNEY JOHNSON',
-    subtitle: 'Assistant Director of Operations',
-    text: 'Tania splits her time among different roles at Foundation for Healthy Generations. She is responsible for grant and contract management, provides support to the Finance/Administration team, and works with the ED to support human resource systems for the agency. Prior to joining the Foundation for Healthy Generations, she worked with international exchange programs and cross-cultural learning in both the non-profit and private sectors.'
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/dom-300px.jpg',
-    title: 'Dom',
-    subtitle: 'Assistant Director of Operations',
-    text: ''
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/libby-300px.jpg',
-    title: 'Libby',
-    subtitle: 'Assistant Director of Operations',
-    text: ''
-  }, {
-    url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/ryan-300px.jpg',
-    title: 'Ryan',
-    subtitle: 'Assistant Director of Operations',
-    text: ''
-  }]
+      url: 'http://healthygen.org/wp-content/uploads/2018/02/paul-300px.jpg',
+      title: 'Paul Getzel',
+      subtitle: 'Executive Director',
+      text: 'Paul is the executive director of Healthy Gen. He holds a degree in psychology from Willamette University. Prior to joining the team, Paul served as deputy executive director at Lifelong and also worked as the department director at their Chicken Soup Brigade, a program aimed at improving the nutritional health of individuals living with chronic conditions and hunger.'
+    }, {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/ben-300px.jpg',
+      title: 'Ben Robinson',
+      subtitle: 'Director of Finance',
+      text: 'Ben is the point person on all financial and administrative matters. He holds an MBA from Ross School of Business, University of Michigan. His prior positions include CFO at the University of Washington\'s School of Public Health and Finance Director of Fred Hutchinson Cancer Research Center.'
+    }, {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kathy-300px.jpg',
+      title: 'KATHY BURGOYNE, PHD',
+      subtitle: 'Senior Program Advisor',
+      text: 'Kathy has worked in the prevention field for over 30 years as both a practitioner and researcher. At the center of her career has been an abiding commitment to vulnerable children, youth, and their families. Having worked in multiple systems including education, juvenile corrections, mental health, housing, and health promotion, she understands that each system has a necessary but not sufficient part in addressing the problems vulnerable people face. As a result, she focuses on establishing and maintaining strategic partnerships with schools, housing, social services, parents, philanthropists, government, and researchers to promote the health, education, and self-sufficiency of families living in very low-income, multi-ethnic communities.'
+    }, {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/julie-300px.jpg',
+      title: 'Julie Peterson',
+      subtitle: 'Senior Director of Policy',
+      text: 'Julie\'s public policy advocacy and legislative work is recognized by Philanthropy Northwest, Washington State Department of Social and Health Services Division of Alcohol and Substance Abuse, Community Anti-Drug Coalitions of America (CADCA) and the National Network for Safe and Drug-Free Schools and Communities. Currently, Julie serves as the past president of the Washington Association for Substance Abuse and Violence Prevention. Prior to her arrival at Foundation for Healthy Generations, she was the deputy director of the Washington State Traffic Safety Commission. She served as the agency\'s legislative liaison and a member of the interagency work group on drugs.'
+    }, {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/10/brice-300px.jpg',
+      title: 'Brice Reinhardt',
+      subtitle: 'Human Resources and Executive Support',
+      text: 'Brice manages human resources and provides project management support to the executive team at Health Gen.  Her superpowers include sorting out complex systems and tasks while maintaining and building strong relationship with internal and external stakeholders.'
+    }, {
+      url: 'http://healthygen.org/wp-content/uploads/2018/02/dustyn-addington-300px.jpg',
+      title: 'DUSTYN ADDINGTON',
+      subtitle: 'Assistant Director of Learning and Strategy',
+      text: 'Dustyn designs processes and opportunities for cross-programmatic learning, reflection, and strategic thinking. Applying pedagogical skill to writing and editing, he communicates the impact of our work to a variety of audiences. Dustyn is a PhD candidate in philosophy at the University of Washington and has a background in college teaching and academic research.'
+    }, {
+      url: 'http://healthygen.org/wp-content/uploads/2018/04/phoebe-olivera-300px.jpg',
+      title: 'Phoebe M. Olivera, MA',
+      subtitle: 'Director, Practice Transformation',
+      text: 'Phoebe\’s superpowers include group facilitation, problem solving and organizational system design. She holds a master\'s degree in organizational psychology from Antioch University Seattle and graduate certificates in whole systems design and change management.'
+    }, {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/gretchen-300px.jpg',
+      title: 'GRETCHEN HANSEN',
+      subtitle: 'Community Involvement Specialist',
+      text: 'Gretchen helps communities develop support for people facing extraordinary barriers including refugees, immigrants, chronically homeless and those in and out of incarceration. She works directly with neighborhood based community health workers in the Salishan neighborhood and around Pierce County. Her skills include grant writing, contract management, project development, staff development and work with community coalitions. She is a graduate of University of Washington Tacoma.'
+    }, {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kim-300px.jpg',
+      title: 'KIMBERLY LATHAM',
+      subtitle: 'Program Coordinator',
+      text: 'Kimberly serves as program coordinator where she focuses on creating information channels to bridge knowledge across teams and strengthen collaboration with partners and community members. She brings experience in supporting the strategic alignment and growth of local and national initiatives through contract management, data analysis, and project coordination.  Prior to joining Foundation for Healthy Generations, she provided support for an executive office at a large operating foundation.'
+    }, {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/libby-300px.jpg',
+      title: 'LIBBY FURROW',
+      subtitle: 'Business and Financial Operations Specialist',
+      text: 'Libby assists the finance team with financial operations and oversees general building operations. Her attention to detail and impeccable organization skills keep us on track and operating smoothly. Prior to joining the team, Libby worked in fundraising and development at Lucile Packard Foundation for Children’s Health.'
+    },  {
+      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/sarah-300px.jpg',
+      title: 'SARAH SALOMON',
+      subtitle: 'Assistant Director of Applied Research',
+      text: 'Sarah leads Learning Collaboratives to support agencies working collaboratively to implement new programs. She routinely facilitates program and quality improvement through data-driven discussions with diverse staff and stakeholders, and has developed tools and toolkits to support capacity building and sustainability.'
+    }, {
+      url: 'http://healthygen.org/wp-content/uploads/2018/02/jennifer-300px.jpg',
+      title: 'Jennifer Wagner',
+      subtitle: 'Marketing and Communications Manager',
+      text: 'Jennifer joins Healthy Gen as the marketing and communications manager. Her prior positions include director of marketing at Big Brothers Big Sisters of Central Arizona and marketing manager at Fresh Start Women\’s Foundation. Jennifer holds a degree in communication and history from Arizona State University.'
+    }, {
+      url: 'http://healthygen.org/wp-content/uploads/2018/02/jun-300px.jpg',
+      title: 'Jun Chung',
+      subtitle: 'Staff Accountant',
+      text: 'Jun joins Health Gen from Pacific Financial Group in Bellevue where he served as an operations analyst. He is a certified public accountant with seven years experience in Washington and California. He is also the father of two children.'
+    }, {
+      url: 'http://healthygen.org/wp-content/uploads/2018/03/tina-horner-300px.jpg',
+      title: 'Tina Horner',
+      subtitle: 'CHW Specialist - RN',
+      text: 'Tina works to develop and support the implementation of the Pathways Community Care Coordination model and other opportunities that support CHW workforce development. Her prior positions include being a nurse consultant and also the senior regional health coordinator at Puget Sound Educational Service District. She is a registered nurse and holds a master’s degree from the University of Washington.'
+    }, {
+      url: 'http://healthygen.org/wp-content/uploads/2018/03/edgar-lopez-baez-300px.jpg',
+      title: 'Edgar Lopez-Baez',
+      subtitle: 'CHW Specialist',
+      text: 'Edgar supports the development of the Pathways Community Care Coordination model and other opportunities for community health workers. Prior to Healthy Gen, Edgar served as a health educator and he designed a traumatic brain injury and stroke manual for Seattle Children’s Hospital. He also led train-the-trainer workshops around diabetes at Fred Hutchinson Cancer and Research Center.'
+    }
+  ]
   const modal = new Modal()
   const gallery = new Gallery('gallery-2017', {
     items: GALLERY_ITEMS,

@@ -21,10 +21,13 @@
     width: 85%;
     height: 85%;
     max-width: 768px;
+    overflow-y: auto;
     img {
       width: 80%;
       max-width: 300px;
+      min-width: auto;
       height: auto;
+      min-height: auto;
       margin-bottom: 12px;
     }
     #gallery-modal-body {

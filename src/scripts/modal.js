@@ -44,11 +44,13 @@ class Modal {
   show(html) {
     this.modal.style.display = 'block'
     document.body.style.overflow = 'hidden'
+    document.documentElement.style.overflow = 'hidden'
   }
 
   hide() {
     this.modal.style.display = 'none'
     document.body.style.overflow = 'auto'
+    document.documentElement.style.overflow = 'auto'
   }
 
   // main render loop
