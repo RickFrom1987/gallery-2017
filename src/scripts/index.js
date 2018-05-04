@@ -50,11 +50,6 @@
       subtitle: 'Assistant Director of Applied Research',
       text: 'Sarah leads Learning Collaboratives to support agencies working collaboratively to implement new programs. She routinely facilitates program and quality improvement through data-driven discussions with diverse staff and stakeholders, and has developed tools and toolkits to support capacity building and sustainability.'
     }, {
-      url: 'http://healthygen.org/wp-content/uploads/2018/02/jennifer-300px.jpg',
-      title: 'Jennifer Wagner',
-      subtitle: 'Marketing and Communications Manager',
-      text: 'Jennifer joins Healthy Gen as the marketing and communications manager. Her prior positions include director of marketing at Big Brothers Big Sisters of Central Arizona and marketing manager at Fresh Start Women\’s Foundation. Jennifer holds a degree in communication and history from Arizona State University.'
-    }, {
       url: 'http://healthygen.org/wp-content/uploads/2018/02/jun-300px.jpg',
       title: 'Jun Chung',
       subtitle: 'Staff Accountant',

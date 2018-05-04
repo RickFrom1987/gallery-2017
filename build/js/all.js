@@ -176,11 +176,6 @@ class Gallery {
       subtitle: 'Human Resources and Executive Support',
       text: 'Brice manages human resources and provides project management support to the executive team at Health Gen.  Her superpowers include sorting out complex systems and tasks while maintaining and building strong relationship with internal and external stakeholders.'
     }, {
-      url: 'http://healthygen.org/wp-content/uploads/2018/02/dustyn-addington-300px.jpg',
-      title: 'DUSTYN ADDINGTON',
-      subtitle: 'Assistant Director of Learning and Strategy',
-      text: 'Dustyn designs processes and opportunities for cross-programmatic learning, reflection, and strategic thinking. Applying pedagogical skill to writing and editing, he communicates the impact of our work to a variety of audiences. Dustyn is a PhD candidate in philosophy at the University of Washington and has a background in college teaching and academic research.'
-    }, {
       url: 'http://healthygen.org/wp-content/uploads/2018/04/phoebe-olivera-300px.jpg',
       title: 'Phoebe M. Olivera, MA',
       subtitle: 'Director, Practice Transformation',
@@ -205,11 +200,6 @@ class Gallery {
       title: 'SARAH SALOMON',
       subtitle: 'Assistant Director of Applied Research',
       text: 'Sarah leads Learning Collaboratives to support agencies working collaboratively to implement new programs. She routinely facilitates program and quality improvement through data-driven discussions with diverse staff and stakeholders, and has developed tools and toolkits to support capacity building and sustainability.'
-    }, {
-      url: 'http://healthygen.org/wp-content/uploads/2018/02/jennifer-300px.jpg',
-      title: 'Jennifer Wagner',
-      subtitle: 'Marketing and Communications Manager',
-      text: 'Jennifer joins Healthy Gen as the marketing and communications manager. Her prior positions include director of marketing at Big Brothers Big Sisters of Central Arizona and marketing manager at Fresh Start Women\’s Foundation. Jennifer holds a degree in communication and history from Arizona State University.'
     }, {
       url: 'http://healthygen.org/wp-content/uploads/2018/02/jun-300px.jpg',
       title: 'Jun Chung',
