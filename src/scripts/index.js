@@ -64,6 +64,11 @@
       title: 'Edgar Lopez-Baez',
       subtitle: 'CHW Specialist',
       text: 'Edgar supports the development of the Pathways Community Care Coordination model and other opportunities for community health workers. Prior to Healthy Gen, Edgar served as a health educator and he designed a traumatic brain injury and stroke manual for Seattle Children’s Hospital. He also led train-the-trainer workshops around diabetes at Fred Hutchinson Cancer and Research Center.'
+    }, {
+      url: 'http://healthygen.org/wp-content/uploads/2018/06/jessica_martinez_300px.jpg',
+      title: 'Jessica Martinez',
+      subtitle: 'CHW Coordinator - Pierce Co.',
+      text: ''
     }
   ]
   const modal = new Modal()
