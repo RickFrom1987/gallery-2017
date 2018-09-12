@@ -40,11 +40,6 @@
       subtitle: 'Program Coordinator',
       text: 'Kimberly serves as program coordinator where she focuses on creating information channels to bridge knowledge across teams and strengthen collaboration with partners and community members. She brings experience in supporting the strategic alignment and growth of local and national initiatives through contract management, data analysis, and project coordination.  Prior to joining Foundation for Healthy Generations, she provided support for an executive office at a large operating foundation.'
     }, {
-      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/libby-300px.jpg',
-      title: 'LIBBY FURROW',
-      subtitle: 'Business and Financial Operations Specialist',
-      text: 'Libby assists the finance team with financial operations and oversees general building operations. Her attention to detail and impeccable organization skills keep us on track and operating smoothly. Prior to joining the team, Libby worked in fundraising and development at Lucile Packard Foundation for Children’s Health.'
-    },  {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/sarah-300px.jpg',
       title: 'SARAH SALOMON',
       subtitle: 'Assistant Director of Applied Research',
@@ -54,11 +49,6 @@
       title: 'Jun Chung',
       subtitle: 'Staff Accountant',
       text: 'Jun joins Health Gen from Pacific Financial Group in Bellevue where he served as an operations analyst. He is a certified public accountant with seven years experience in Washington and California. He is also the father of two children.'
-    }, {
-      url: 'http://healthygen.org/wp-content/uploads/2018/03/tina-horner-300px.jpg',
-      title: 'Tina Horner',
-      subtitle: 'CHW Specialist - RN',
-      text: 'Tina works to develop and support the implementation of the Pathways Community Care Coordination model and other opportunities that support CHW workforce development. Her prior positions include being a nurse consultant and also the senior regional health coordinator at Puget Sound Educational Service District. She is a registered nurse and holds a master’s degree from the University of Washington.'
     }, {
       url: 'http://healthygen.org/wp-content/uploads/2018/03/edgar-lopez-baez-300px.jpg',
       title: 'Edgar Lopez-Baez',
