@@ -196,11 +196,6 @@ class Gallery {
       subtitle: 'Assistant Director of Applied Research',
       text: 'Sarah leads Learning Collaboratives to support agencies working collaboratively to implement new programs. She routinely facilitates program and quality improvement through data-driven discussions with diverse staff and stakeholders, and has developed tools and toolkits to support capacity building and sustainability.'
     }, {
-      url: 'http://healthygen.org/wp-content/uploads/2018/02/jun-300px.jpg',
-      title: 'Jun Chung',
-      subtitle: 'Staff Accountant',
-      text: 'Jun joins Health Gen from Pacific Financial Group in Bellevue where he served as an operations analyst. He is a certified public accountant with seven years experience in Washington and California. He is also the father of two children.'
-    }, {
       url: 'http://healthygen.org/wp-content/uploads/2018/03/edgar-lopez-baez-300px.jpg',
       title: 'Edgar Lopez-Baez',
       subtitle: 'CHW Specialist',
@@ -209,7 +204,7 @@ class Gallery {
       url: 'http://healthygen.org/wp-content/uploads/2018/06/jessica_martinez_300px.jpg',
       title: 'Jessica Martinez',
       subtitle: 'CHW Coordinator - Pierce Co.',
-      text: ''
+      text: 'Jessica Martinez coordinates Healthy Gen’s neighborhood based community health advocates and community health workers throughout Pierce County. Jessica works to develop natural helpers into community leaders and advocates, on the pathway to gainful employment. She also serves as the grants evaluator for the Salishan Advocates Program. Jessica credits her own experience as an immigrant, unfamiliar with the culture and language of her new home, with her passion for equity and working with and for communities that may be disconnected by language or life circumstances. Jessica holds bachelors and masters degrees in health science and public health from her native Puerto Rico, and has worked as a K-12 health and science teacher, a health educator in Tacoma, and a community resource navigator in King County.'
     }
   ]
   const modal = new Modal()
