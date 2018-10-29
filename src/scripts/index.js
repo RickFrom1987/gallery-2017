@@ -5,11 +5,6 @@
       subtitle: 'Executive Director',
       text: 'Paul is the executive director of Healthy Gen. He holds a degree in psychology from Willamette University. Prior to joining the team, Paul served as deputy executive director at Lifelong and also worked as the department director at their Chicken Soup Brigade, a program aimed at improving the nutritional health of individuals living with chronic conditions and hunger.'
     }, {
-      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/ben-300px.jpg',
-      title: 'Ben Robinson',
-      subtitle: 'Director of Finance',
-      text: 'Ben is the point person on all financial and administrative matters. He holds an MBA from Ross School of Business, University of Michigan. His prior positions include CFO at the University of Washington\'s School of Public Health and Finance Director of Fred Hutchinson Cancer Research Center.'
-    }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kathy-300px.jpg',
       title: 'KATHY BURGOYNE, PHD',
       subtitle: 'Senior Program Advisor',

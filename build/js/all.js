@@ -156,11 +156,6 @@ class Gallery {
       subtitle: 'Executive Director',
       text: 'Paul is the executive director of Healthy Gen. He holds a degree in psychology from Willamette University. Prior to joining the team, Paul served as deputy executive director at Lifelong and also worked as the department director at their Chicken Soup Brigade, a program aimed at improving the nutritional health of individuals living with chronic conditions and hunger.'
     }, {
-      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/ben-300px.jpg',
-      title: 'Ben Robinson',
-      subtitle: 'Director of Finance',
-      text: 'Ben is the point person on all financial and administrative matters. He holds an MBA from Ross School of Business, University of Michigan. His prior positions include CFO at the University of Washington\'s School of Public Health and Finance Director of Fred Hutchinson Cancer Research Center.'
-    }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kathy-300px.jpg',
       title: 'KATHY BURGOYNE, PHD',
       subtitle: 'Senior Program Advisor',
@@ -204,7 +199,7 @@ class Gallery {
       url: 'http://healthygen.org/wp-content/uploads/2018/06/jessica_martinez_300px.jpg',
       title: 'Jessica Martinez',
       subtitle: 'CHW Coordinator - Pierce Co.',
-      text: 'Jessica Martinez coordinates Healthy Gen’s neighborhood based community health advocates and community health workers throughout Pierce County. Jessica works to develop natural helpers into community leaders and advocates, on the pathway to gainful employment. She also serves as the grants evaluator for the Salishan Advocates Program. Jessica credits her own experience as an immigrant, unfamiliar with the culture and language of her new home, with her passion for equity and working with and for communities that may be disconnected by language or life circumstances. Jessica holds bachelors and masters degrees in health science and public health from her native Puerto Rico, and has worked as a K-12 health and science teacher, a health educator in Tacoma, and a community resource navigator in King County.'
+      text: 'Jessica coordinates Healthy Gen\'s neighborhood based community health advocates and community health workers throughout Pierce County. She works to develop natural helpers into community leaders and advocates, on the pathway to gainful employment. She also serves as the grants evaluator for the Salishan Advocates Program. She credits her own experience as an immigrant, unfamiliar with the culture and language of her new home, with her passion for equity and working with and for communities that may be disconnected by language or life circumstances. Jessica holds bachelors and masters degrees in health science and public health from her native Puerto Rico, and has worked as a K-12 health and science teacher, a health educator in Tacoma and a community resource navigator in King County.'
     }
   ]
   const modal = new Modal()
