@@ -25,7 +25,7 @@
       subtitle: 'Program Coordinator',
       text: 'Kimberly serves as program coordinator where she focuses on creating information channels to bridge knowledge across teams and strengthen collaboration with partners and community members. She brings experience in supporting the strategic alignment and growth of local and national initiatives through contract management, data analysis, and project coordination.  Prior to joining Foundation for Healthy Generations, she provided support for an executive office at a large operating foundation.'
     }, {
-      url: 'https://healthygen.org/wp-content/uploads/2018/12/rosa-peralta-landin.jpg',
+      url: 'https://healthygen.org/wp-content/uploads/2018/12/rosa-peralta-landin-300px.jpg',
       title: 'ROSA PERALTA LANDIN',
       subtitle: 'Senior Director of Community Based Health',
       text: 'Rosa brings more than 15 years experience building community partnerships, developing programs, and advocating for equity and justice – most recently as executive director of the Latino Center for Health. As the Foundation’s senior director of community based health, Rosa looks forward to building authentic community engagement, influencing statewide health policy, and actively advocating for communities often not included in health policy and systems design. She holds sociology degrees from Whitman College (BA) and the University of Michigan (MS). As one of 10 children from a family of immigrant farmworkers, Rosa is delighted to be in the position to support a cause that is dear to her heart: the development of a well trained, paid community health worker workforce.'
@@ -45,7 +45,7 @@
       subtitle: 'CHW Coordinator - Pierce Co.',
       text: 'Jessica coordinates Healthy Gen\'s neighborhood based community health advocates and community health workers throughout Pierce County. She works to develop natural helpers into community leaders and advocates, on the pathway to gainful employment. She also serves as the grants evaluator for the Salishan Advocates Program. She credits her own experience as an immigrant, unfamiliar with the culture and language of her new home, with her passion for equity and working with and for communities that may be disconnected by language or life circumstances. Jessica holds bachelors and masters degrees in health science and public health from her native Puerto Rico, and has worked as a K-12 health and science teacher, a health educator in Tacoma and a community resource navigator in King County.'
     },  {
-      url: 'https://healthygen.org/wp-content/uploads/2018/12/gina-jacobs.jpg',
+      url: 'https://healthygen.org/wp-content/uploads/2018/12/gina-jacobs-300px.jpg',
       title: 'GINA JACOBS',
       subtitle: 'Bookkeeper',
       text: ''
