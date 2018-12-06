@@ -20,20 +20,15 @@
       subtitle: 'Human Resources and Executive Support',
       text: 'Brice manages human resources and provides project management support to the executive team at Health Gen.  Her superpowers include sorting out complex systems and tasks while maintaining and building strong relationship with internal and external stakeholders.'
     }, {
-      url: 'http://healthygen.org/wp-content/uploads/2018/04/phoebe-olivera-300px.jpg',
-      title: 'Phoebe M. Olivera, MA',
-      subtitle: 'Director, Practice Transformation',
-      text: 'Phoebe\’s superpowers include group facilitation, problem solving and organizational system design. She holds a master\'s degree in organizational psychology from Antioch University Seattle and graduate certificates in whole systems design and change management.'
-    }, {
-      url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/gretchen-300px.jpg',
-      title: 'GRETCHEN HANSEN',
-      subtitle: 'Community Involvement Specialist',
-      text: 'Gretchen helps communities develop support for people facing extraordinary barriers including refugees, immigrants, chronically homeless and those in and out of incarceration. She works directly with neighborhood based community health workers in the Salishan neighborhood and around Pierce County. Her skills include grant writing, contract management, project development, staff development and work with community coalitions. She is a graduate of University of Washington Tacoma.'
-    }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kim-300px.jpg',
       title: 'KIMBERLY LATHAM',
       subtitle: 'Program Coordinator',
       text: 'Kimberly serves as program coordinator where she focuses on creating information channels to bridge knowledge across teams and strengthen collaboration with partners and community members. She brings experience in supporting the strategic alignment and growth of local and national initiatives through contract management, data analysis, and project coordination.  Prior to joining Foundation for Healthy Generations, she provided support for an executive office at a large operating foundation.'
+    }, {
+      url: 'https://healthygen.org/wp-content/uploads/2018/12/rosa-peralta-landin.jpg',
+      title: 'ROSA PERALTA LANDIN',
+      subtitle: 'Senior Director of Community Based Health',
+      text: 'Rosa brings more than 15 years experience building community partnerships, developing programs, and advocating for equity and justice – most recently as executive director of the Latino Center for Health. As the Foundation’s senior director of community based health, Rosa looks forward to building authentic community engagement, influencing statewide health policy, and actively advocating for communities often not included in health policy and systems design. She holds sociology degrees from Whitman College (BA) and the University of Michigan (MS). As one of 10 children from a family of immigrant farmworkers, Rosa is delighted to be in the position to support a cause that is dear to her heart: the development of a well trained, paid community health worker workforce.'
     }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/sarah-300px.jpg',
       title: 'SARAH SALOMON',
@@ -49,6 +44,11 @@
       title: 'Jessica Martinez',
       subtitle: 'CHW Coordinator - Pierce Co.',
       text: 'Jessica coordinates Healthy Gen\'s neighborhood based community health advocates and community health workers throughout Pierce County. She works to develop natural helpers into community leaders and advocates, on the pathway to gainful employment. She also serves as the grants evaluator for the Salishan Advocates Program. She credits her own experience as an immigrant, unfamiliar with the culture and language of her new home, with her passion for equity and working with and for communities that may be disconnected by language or life circumstances. Jessica holds bachelors and masters degrees in health science and public health from her native Puerto Rico, and has worked as a K-12 health and science teacher, a health educator in Tacoma and a community resource navigator in King County.'
+    },  {
+      url: 'https://healthygen.org/wp-content/uploads/2018/12/gina-jacobs.jpg',
+      title: 'GINA JACOBS',
+      subtitle: 'Bookkeeper',
+      text: ''
     }
   ]
   const modal = new Modal()
