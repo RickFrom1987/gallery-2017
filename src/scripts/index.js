@@ -15,11 +15,6 @@
       subtitle: 'Senior Director of Community Based Health',
       text: 'Rosa brings more than 15 years experience building community partnerships, developing programs, and advocating for equity and justice – most recently as executive director of the Latino Center for Health. As the Foundation’s senior director of community based health, Rosa looks forward to building authentic community engagement, influencing statewide health policy, and actively advocating for communities often not included in health policy and systems design. She holds sociology degrees from Whitman College (BA) and the University of Michigan (MS). As one of 10 children from a family of immigrant farmworkers, Rosa is delighted to be in the position to support a cause that is dear to her heart: the development of a well trained, paid community health worker workforce.'
     }, {
-      url: 'https://healthygen.org/wp-content/uploads/2018/12/gina-jacobs-300px.jpg',
-      title: 'GINA JACOBS',
-      subtitle: 'Bookkeeper',
-      text: ''
-    }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kim-300px.jpg',
       title: 'KIMBERLY LATHAM',
       subtitle: 'Program Coordinator',
