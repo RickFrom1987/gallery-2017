@@ -14,7 +14,7 @@
   "author": "RickFrom1987",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.0",
+    "browser-sync": "^2.26.5",
     "gulp": "3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-s3-publish": "^2.0.0",
