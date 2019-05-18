@@ -17,8 +17,8 @@
     }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/kim-300px.jpg',
       title: 'KIMBERLY LATHAM',
-      subtitle: 'Program Coordinator',
-      text: 'Kimberly serves as program coordinator where she focuses on creating information channels to bridge knowledge across teams and strengthen collaboration with partners and community members. She brings experience in supporting the strategic alignment and growth of local and national initiatives through contract management, data analysis, and project coordination.  Prior to joining Foundation for Healthy Generations, she provided support for an executive office at a large operating foundation.'
+      subtitle: 'Program Manager',
+      text: 'Kimberly serves as program manager where she focuses on creating information channels to bridge knowledge across teams and strengthen collaboration with partners and community members. She brings experience in supporting the strategic alignment and growth of local and national initiatives through contract management, data analysis, and project coordination.  Prior to joining Foundation for Healthy Generations, she provided support for an executive office at a large operating foundation.'
     }, {
       url: 'http://healthygen.org/wp-content/uploads/2018/03/edgar-lopez-baez-300px.jpg',
       title: 'Edgar Lopez-Baez',
@@ -27,7 +27,7 @@
     }, {
       url: 'http://healthygen.org/wp-content/uploads/2018/06/jessica_martinez_300px.jpg',
       title: 'Jessica Martinez',
-      subtitle: 'CHW Coordinator - Pierce Co.',
+      subtitle: 'CHW/CHW Program Manager',
       text: 'Jessica coordinates Healthy Gen\'s neighborhood based community health advocates and community health workers throughout Pierce County. She works to develop natural helpers into community leaders and advocates, on the pathway to gainful employment. She also serves as the grants evaluator for the Salishan Advocates Program. She credits her own experience as an immigrant, unfamiliar with the culture and language of her new home, with her passion for equity and working with and for communities that may be disconnected by language or life circumstances. Jessica holds bachelors and masters degrees in health science and public health from her native Puerto Rico, and has worked as a K-12 health and science teacher, a health educator in Tacoma and a community resource navigator in King County.'
     }, {
       url: 'http://healthygen.wpengine.com/wp-content/uploads/2017/06/sarah-300px.jpg',
